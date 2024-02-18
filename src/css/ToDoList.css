@@ -1,0 +1,69 @@
+.to-do-list-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 5rem auto 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.list li {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.list li input {
+    margin-right: 10px;
+    position: relative;
+    top: 2px
+}
+
+.to-do-list-container .add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.to-do-list-container input[type="text"] {
+    width: 90%;
+    padding: 3px 15px;
+    font-size: 1.2rem;
+    border-bottom: 3px solid #ddd;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.to-do-list-container input[type="text"]:focus {
+    border-bottom: 3px solid #000;
+}
+
+button {
+    width: 5%;
+    padding: 0 8px;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 10px;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #333;
+}
